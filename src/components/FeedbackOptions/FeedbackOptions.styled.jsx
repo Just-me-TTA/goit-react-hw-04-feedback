@@ -23,6 +23,10 @@ export const Button = styled.button`
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 
+  &::first-letter {
+    text-transform: uppercase;
+  }
+
   &:hover {
     background-color: transparent;
     color: #21ebff;
